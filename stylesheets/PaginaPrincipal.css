@@ -38,15 +38,3 @@ body {
   li {
     margin-bottom: 0.5rem;
   }
-  .skill-bar {
-    background-color: #ecf0f1;
-    height: 20px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  .skill-level {
-    background-color: #3498db;
-    height: 100%;
-    border-radius: 10px;
-    transition: width 0.5s ease-in-out;
-  }
