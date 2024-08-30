@@ -18,6 +18,11 @@ body {
   h1 {
     margin: 0;
   }
+  h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+  }
   section {
     background-color: #34495e;
     margin-bottom: 2rem;
@@ -25,11 +30,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
-  h2 {
-    color: #3498db;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 0.5rem;
-  }
+
   ul {
     list-style-type: none;
     padding-left: 0;
