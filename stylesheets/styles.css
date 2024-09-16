@@ -45,48 +45,5 @@ li {
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
   display: flex;
-}
-
-nav li {
-  list-style: none;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  padding: 15px;
-}
-
-/* Responsive layout - makes a one-column/stacked layout instead of a two-column/side-by-side layout */
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  header, section {
-    padding: 1rem;
-  }
-  
-  h1, h2 {
-    font-size: 1.5rem;
-  }
-  
-  nav ul li a {
-    font-size: 1rem;
-  }
-  
-  table, th, td {
-    display: block;
-    width: 100%;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 15px;
-  }
-  
-  th {
-    position: sticky;
-    top: 0;
-  }
 }
