@@ -35,6 +35,7 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+
 li {
   margin-bottom: 0.5rem;
 }
@@ -52,15 +53,11 @@ nav ul {
 
 nav li {
   list-style: none;
+  align-content: center;
 }
 
 nav a {
   text-decoration: none;
   color: white;
   padding: 15px;
-}
-
-nav a.active {
-  background-color: black;
-  border-radius: 5px;
 }
