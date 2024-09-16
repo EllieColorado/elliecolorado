@@ -47,3 +47,7 @@ li {
 nav ul {
   display: flex;
 }
+
+nav a {
+  padding: 15px;
+}
