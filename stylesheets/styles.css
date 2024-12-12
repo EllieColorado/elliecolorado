@@ -39,6 +39,7 @@ ul {
   list-style-type: none;
   padding-left: 0;
 }
+
 li {
   margin-bottom: 0.5rem;
 }
@@ -54,4 +55,9 @@ nav ul {
 
 nav a {
   padding: 15px;
+}
+
+table{
+  border-style: solid;
+  border: 1
 }
