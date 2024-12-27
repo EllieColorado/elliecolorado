@@ -1,2 +1,2 @@
-# Portfolio
-Este es mi portfolio personal, a modo de curriculum. Está en progreso.
+# Currículum
+Este es mi currículum en formato web, aunque está en progreso.
