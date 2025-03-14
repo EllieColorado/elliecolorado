@@ -5,6 +5,13 @@ body {
   background-color: #121212;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
 }
 
 header {
@@ -22,7 +29,7 @@ header {
 .profile-photo {
   width: 150px;
   height: 150px;
-  margin-right: 20px; /* Espacio entre la foto y el texto */
+  margin-right: 20px;
 }
 
 .header-text h1 {
@@ -35,9 +42,12 @@ header {
   color: #cccccc;
 }
 
+h1 {
+  border-bottom: 2px solid #444444;
+}
+
 h2 {
   color: #cccccc;
-  border-bottom: 2px solid #444444;
   padding-bottom: 0.5rem;
 }
 
@@ -46,33 +56,30 @@ section {
   padding: 0;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
 nav ul {
   display: flex;
+  width: 100%;
   margin: 0;
   padding: 0;
+}
+
+nav li {
+  flex-grow: 1;
+  text-align: center;
 }
 
 nav a {
   padding: 15px;
   color: #cccccc;
   text-decoration: none;
-  border: 1px solid #444444;
   border-bottom: none;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #1f1f1f;
   position: relative;
   z-index: 1;
+  width: 100%;
+  display: block;
 }
 
 nav a.active {
@@ -96,7 +103,8 @@ table {
   border-collapse: collapse;
 }
 
-table th, table td {
+table th,
+table td {
   border: 1px solid #444444;
   padding: 8px;
   text-align: left;
@@ -110,10 +118,13 @@ table th, table td {
   position: relative;
   top: -1px;
   z-index: 0;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
 }
 
 .tab-content.active {
   display: block;
+  opacity: 1;
 }
 
 footer {
@@ -142,9 +153,46 @@ footer {
   color: #ffffff;
 }
 
-.logo-mini img{
+.footer-logo img {
   height: 35px;
   width: 35px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.org-logo {
+  width: 100%;
+  height: auto;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  width: auto;
+  height: 100%;
+}
+
+.horizontal-list {
+  padding: 0;
+  display: flex;
+  list-style-position: inside;
+}
+
+.horizontal-list li {
+  margin-right: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

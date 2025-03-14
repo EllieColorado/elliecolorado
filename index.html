@@ -11,176 +11,231 @@
 </head>
 
 <body>
-  <header>
-    <div class="header-content">
-      <img class="profile-photo" src="images/FotoDePerfil.jpg" alt="Foto de perfil" />
-      <div class="header-text">
-        <h1>Ellie Rebeca Colorado Alvarado</h1>
-        <p>
-          Mi motivación radica en la innovación tecnológica y el trabajo en equipo.
-          Busco continuamente soluciones prácticas a desafíos complejos, y mi
-          espíritu colaborativo, apoyado por una sólida base técnica, contribuye
-          al éxito de los proyectos en los que participo. La pasión por la
-          programación me impulsa hacia un desarrollo profesional constante.
-        </p>
-        <p>He desarrollado (y sigo desarrollando) esta página web como ejercicio auto-didacta sobre el ciclo de
-          desarrollo y despliegue de aplicaciones web, así como para mostrar mis habilidades y ponerlas a prueba.</p>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <img class="profile-photo" src="images/FotoDePerfil.jpg" alt="Foto de perfil" />
+        <div class="header-text">
+          <h1>Ellie Rebeca Colorado Alvarado</h1>
+          <h2>Toledo, España</h2>
+        </div>
       </div>
-    </div>
-  </header>
-  <section id="nav">
-    <nav>
-      <ul>
-        <li><a href="#" class="active" onclick="openTab('experience')">Experiencia</a></li>
-        <li><a href="#" onclick="openTab('education')">Educación</a></li>
-        <li><a href="#" onclick="openTab('projects')">Proyectos</a></li>
-      </ul>
-    </nav>
-  </section>
+    </header>
+    <section id="nav">
+      <nav>
+        <ul>
+          <li><a href="#" class="active" onclick="openTab('about-me')">Sobre mí</a></li>
+          <li><a href="#" onclick="openTab('experience')">Experiencia</a></li>
+          <li><a href="#" onclick="openTab('education')">Educación</a></li>
+          <li><a href="#" onclick="openTab('projects')">Proyectos</a></li>
+        </ul>
+      </nav>
+    </section>
 
-  <section id="experience" class="tab-content active">
-    <table>
-      <tr>
-        <th>Título</th>
-        <th>Empresa</th>
-        <th>Fecha de inicio</th>
-        <th>Fecha de fin</th>
-        <th>Descripción</th>
-        <th>Habilidades desarrolladas</th>
-      </tr>
-      <tr>
-        <td>Programadora de portales</td>
-        <td>Minsait</td>
-        <td>02/04/2024</td>
-        <td>28/06/2024</td>
-        <td>Prácticas de DAM en el departamento de portales de Minsait, utilizando Adobe Experience Manager.</td>
-        <td>
-          <ul>
-            <li>XML</li>
-            <li>AEM</li>
-            <li>HTML</li>
-            <li>Java</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </section>
+    <section id="about-me" class="tab-content active">
+      <p>
+        Mi motivación radica en la innovación tecnológica y el trabajo en equipo.
+        Busco continuamente soluciones prácticas a desafíos complejos, y mi
+        espíritu colaborativo, apoyado por una sólida base técnica, contribuye
+        al éxito de los proyectos en los que participo. La pasión por la
+        programación me impulsa hacia un desarrollo profesional constante.
+      </p>
+      <p>
+        A pesar de no estar especializada en desarrollo web, he desarrollado (y sigo desarrollando) esta página web como
+        ejercicio auto-didacta sobre el ciclo de desarrollo y despliegue de aplicaciones web, así como para expandir mis
+        habilidades.
+      </p>
+    </section>
 
-  <section id="education" class="tab-content">
-    <table>
-      <tr>
-        <th>Grado</th>
-        <th>Título</th>
-        <th>Institución</th>
-        <th>Fecha de inicio</th>
-        <th>Fecha de fin</th>
-        <th>Habilidades desarrolladas</th>
-      </tr>
-      <tr>
-        <td>Curso de Especialización</td>
-        <td>
-          Ciberseguridad en Entornos de las Tecnologías de la Información
-        </td>
-        <td>I.E.S. Azarquiel</td>
-        <td>Septiembre 2024</td>
-        <td>Junio 2025</td>
-        <td>
-          <ul>
-            <li>Kali Linux</li>
-            <li>Python</li>
-            <li>Selenium</li>
-            <li>Autopsy</li>
-            <li>nmap</li>
-            <li>Wireshark</li>
-            <li>Volatility</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Ciclo Formativo de Grado Superior</td>
-        <td>Desarrollo de Aplicaciones Multiplataforma</td>
-        <td>I.E.S. Julio Verne</td>
-        <td>Septiembre 2022</td>
-        <td>Junio 2024</td>
-        <td>
-          <ul>
-            <li>XML</li>
-            <li>HTML</li>
-            <li>Java</li>
-            <li>SQL</li>
-            <li>JSON</li>
-            <li>Unity</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Bachillerato</td>
-        <td>Tecnológico</td>
-        <td>I.E.S. Juan de Lucena</td>
-        <td>Septiembre 2020</td>
-        <td>Junio 2022</td>
-      </tr>
-    </table>
-  </section>
+    <section id="experience" class="tab-content">
+      <table>
+        <tr>
+          <th>Empresa</th>
+          <th>Posición</th>
+          <th>Periodo</th>
+          <th>Descripción</th>
+          <th>Habilidades desarrolladas</th>
+        </tr>
+        <tr>
+          <td><img class="org-logo" src="images/logos/LogoMinsait.png"></td>
+          <td>Programadora de portales</td>
+          <td>02/04/2024 - 28/06/2024</td>
+          <td>Prácticas de DAM en el departamento de portales de Minsait.</td>
+          <td>
+            <ul>
+              <li>XML</li>
+              <li>AEM</li>
+              <li>HTML</li>
+              <li>Java</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
 
-  <section id="projects" class="tab-content">
-    <table>
-      <tr>
-        <th>Nombre</th>
-        <th>Descripción</th>
-        <th>Repositorio/s</th>
-      </tr>
-      <tr>
-        <td>Stray Bullet</td>
-        <td>Videojuego de disparos en primera persona con base de datos MySQL, en Unity, usando Photon Pun y XAMPP.</td>
-        <td>
-          <ul>
-            <li><a href="https://codeberg.org/EllieColorado/Stray_Bullet">Repositorio original</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>ProyectoAD</td>
-        <td>Aplicación (web) de gestión de alumnos y asignaturas (inspirada en Papas 2.0) en node.js, usando Express y
-          MongoDB.</td>
-        <td>
-          <ul>
-            <li><a href="https://github.com/OverlordKato/ProyectoAD">Repositorio original</a></li>
-            <li><a href="https://codeberg.org/EllieColorado/ProyectoAD">Repositorio de copia personal</a></li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>ProyectoUT2</td>
-        <td>Prototipo de aplicación (móvil) con usuarios e imágenes (inspirada en Instagram)
-          en Kotlin, usando Jetpack Compose.
-        </td>
-        <td>
-          <ul>
-            <li><a href="https://github.com/ricardodr13/ProjectoUT2">Repositorio original</a></li>
-            <li><a href="https://codeberg.org/EllieColorado/ProjectoUT2">Repositorio de copia personal</a></li>
-          </ul>
-        </td>
-      </tr>
-    </table>
-  </section>
+    <section id="education" class="tab-content">
+      <table>
+        <tr>
+          <th>Institución</th>
+          <th>Grado</th>
+          <th>Título</th>
+          <th>Periodo</th>
+          <th>Habilidades desarrolladas</th>
+        </tr>
+        <tr>
+          <td><img class="org-logo" src="images/logos/LogoAzarquiel.png"></td>
+          <td>Curso de Especialización</td>
+          <td>Ciberseguridad en Entornos de las Tecnologías de la Información</td>
+          <td> 09/2024-06/2025</td>
+          <td>
+            <ul>
+              <li>Kali Linux</li>
+              <li>Python</li>
+              <li>Selenium</li>
+              <li>Autopsy</li>
+              <li>nmap</li>
+              <li>Wireshark</li>
+              <li>Volatility</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><img class="org-logo" src="images/logos/LogoJulioVerne.png"></td>
+          <td>Ciclo Formativo de Grado Superior</td>
+          <td>Desarrollo de Aplicaciones Multiplataforma</td>
+          <td>09/2022 - 06/2024</td>
+          <td>
+            <ul>
+              <li>XML</li>
+              <li>HTML</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>JSON</li>
+              <li>Unity</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="projects" class="tab-content">
+      <div>
+        <h1>ProyectoAD</h1>
+        <p>Aplicación web de gestión de alumnos y asignaturas, inspirada en Papas 2.0.</p>
+        <h2>Habilidades desarrolladas</h2>
+        <ul class="horizontal-list">
+          <li>Node.js</li>
+          <li>MongoDB</li>
+          <li>Express</li>
+          <li>Javascript</li>
+        </ul>
+        <h2>Repositorios</h2>
+        <ul class="horizontal-list">
+          <li><a href="https://github.com/OverlordKato/ProyectoAD" target="_blank">Repositorio original</a></li>
+          <li><a href="https://codeberg.org/EllieColorado/ProyectoAD" target="_blank">Repositorio de copia personal</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h1>Stray Bullet</h1>
+        <p>Videojuego de disparos en primera persona con base de datos.</p>
+        <h2>Habilidades desarrolladas</h2>
+        <ul class="horizontal-list">
+          <li>PHP</li>
+          <li>Unity</li>
+          <li>MySQL</li>
+          <li>Photon Pun</li>
+          <li>XAMPP</li>
+        </ul>
+        <h2>Imágenes</h2>
+        <div class="scroll-container">
+          <img src="images\proyectos\Stray Bullet\img1.png">
+          <img src="images\proyectos\Stray Bullet\img2.png">
+          <img src="images\proyectos\Stray Bullet\img3.png">
+          <img src="images\proyectos\Stray Bullet\img4.png">
+          <img src="images\proyectos\Stray Bullet\img5.png">
+          <img src="images\proyectos\Stray Bullet\img6.png">
+          <img src="images\proyectos\Stray Bullet\img7.png">
+          <img src="images\proyectos\Stray Bullet\img8.png">
+          <img src="images\proyectos\Stray Bullet\img9.png">
+          <img src="images\proyectos\Stray Bullet\img10.png">
+          <img src="images\proyectos\Stray Bullet\img11.png">
+          <img src="images\proyectos\Stray Bullet\img12.png">
+          <img src="images\proyectos\Stray Bullet\img13.png">
+          <img src="images\proyectos\Stray Bullet\img14.png">
+          <img src="images\proyectos\Stray Bullet\img15.png">
+          <img src="images\proyectos\Stray Bullet\img16.png">
+          <img src="images\proyectos\Stray Bullet\img17.png">
+          <img src="images\proyectos\Stray Bullet\img18.png">
+          <img src="images\proyectos\Stray Bullet\img19.png">
+          <img src="images\proyectos\Stray Bullet\img20.png">
+        </div>
+        <h2>Repositorios</h2>
+        <ul class="horizontal-list">
+          <li><a href="https://codeberg.org/EllieColorado/Stray_Bullet" target="_blank">Repositorio original</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h1>ProyectoUT2</h1>
+        <p>Prototipo de aplicación móvil con usuarios e imágenes, inspirada en Instagram.</p>
+        <h2>Habilidades desarrolladas</h2>
+        <ul class="horizontal-list">
+          <li>Kotlin</li>
+          <li>Jetpack Compose</li>
+          <li>Android Studio</li>
+        </ul>
+        <h2>Imágenes</h2>
+        <div class="scroll-container">
+          <img src="images\proyectos\ProyectoUT2\img1.png">
+          <img src="images\proyectos\ProyectoUT2\img2.png">
+          <img src="images\proyectos\ProyectoUT2\img3.png">
+          <img src="images\proyectos\ProyectoUT2\img4.png">
+          <img src="images\proyectos\ProyectoUT2\img5.png">
+          <img src="images\proyectos\ProyectoUT2\img6.png">
+          <img src="images\proyectos\ProyectoUT2\img7.png">
+          <img src="images\proyectos\ProyectoUT2\img8.png">
+          <img src="images\proyectos\ProyectoUT2\img9.png">
+          <img src="images\proyectos\ProyectoUT2\img10.png">
+          <img src="images\proyectos\ProyectoUT2\img11.png">
+          <img src="images\proyectos\ProyectoUT2\img12.png">
+          <img src="images\proyectos\ProyectoUT2\img13.png">
+          <img src="images\proyectos\ProyectoUT2\img14.png">
+          <img src="images\proyectos\ProyectoUT2\img15.png">
+          <img src="images\proyectos\ProyectoUT2\img16.png">
+          <img src="images\proyectos\ProyectoUT2\img17.png">
+          <img src="images\proyectos\ProyectoUT2\img18.png">
+        </div>
+        <h2>Repositorios</h2>
+        <ul class="horizontal-list">
+          <li><a href="https://github.com/ricardodr13/ProjectoUT2" target="_blank">Repositorio original</a></li>
+          <li><a href="https://codeberg.org/EllieColorado/ProjectoUT2" target="_blank">Repositorio de copia personal</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
 
   <footer>
     <div class="footer-content">
-      <p><a href="tel:+34622018123">(+34) 622 01 81 23</a></p>
-      <p><a href="mailto:rebecacoloradoalvarado@gmail.com">rebecacoloradoalvarado@gmail.com</a></p>
+      <p><a href="mailto:rebecacoloradoalvarado@gmail.com" target="_blank">rebecacoloradoalvarado@gmail.com</a></p>
+      <p><a href="tel:+34622018123" target="_blank">(+34) 622 01 81 23</a></p>
       <p>
-        <a class="logo-mini" href="https://www.linkedin.com/in/elliecolorado"><img src="images/LogoLinkedin.png" ></a>
-        <a class="logo-mini" href="https://codeberg.org/EllieColorado"><img src="images/LogoCodeberg.png"></a>
-        <a class="logo-mini" href="https://github.com/EllieColorado"><img src="images/LogoGithub.png"></a>
+        <a class="footer-logo" href="https://www.linkedin.com/in/elliecolorado" target="_blank"><img
+            src="images/logos/LogoLinkedin.png"></a>
+        <a class="footer-logo" href="https://codeberg.org/EllieColorado" target="_blank"><img
+            src="images/logos/LogoCodeberg.png"></a>
+        <a class="footer-logo" href="https://github.com/EllieColorado" target="_blank"><img
+            src="images/logos/LogoGithub.png"></a>
       </p>
     </div>
   </footer>
-  
 
   <script src="scripts/scripts.js"></script>
+
 </body>
 
 </html>
